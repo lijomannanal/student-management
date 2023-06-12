@@ -43,7 +43,7 @@ npm start
 <br>
 
 
-### Check local instance running status
+### Checking local instance status
 To check the application status, you can check the logs generated in the console. If it shows the following message, you can access the api documentation via http://localhost:8080/api-docs 
 ```
 [server.js]     INFO    Application started at http://localhost:8080
@@ -65,7 +65,7 @@ This will execute the unit test cases and integration tests.
 npm test
 ```
 
-### Notes
+## Notes
 - APIs are documented using Swagger. So all the api endpoints can be tested in local instance using the Swagger UI (http://localhost:8080/api-docs)
 - DB Logs are disabled in the production build. But it can be enabled by updating the ENABLE_DB_LOGS=1 in .env.production file at the project root
 
